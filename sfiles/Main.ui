@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>955</width>
+    <height>826</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MSRC Gasan</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>931</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Import file</string>
+    </property>
+    <widget class="QLabel" name="IDL1_Path">
+     <property name="geometry">
+      <rect>
+       <x>132</x>
+       <y>52</y>
+       <width>781</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>IDL Path</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="IDL1_Button">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>46</y>
+       <width>101</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>IDL 1</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Service_Button">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>101</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Service</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Service_Path">
+     <property name="geometry">
+      <rect>
+       <x>132</x>
+       <y>26</y>
+       <width>781</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Service Path</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="IDA_Button">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>176</y>
+       <width>101</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>IDAT64</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="IDA_Path">
+     <property name="geometry">
+      <rect>
+       <x>132</x>
+       <y>182</y>
+       <width>781</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>IDAT Path</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="IDL2_Path">
+     <property name="geometry">
+      <rect>
+       <x>132</x>
+       <y>78</y>
+       <width>781</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>IDL Path</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="IDL2_Button">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>72</y>
+       <width>101</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>IDL 2</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="IDL3_Path">
+     <property name="geometry">
+      <rect>
+       <x>132</x>
+       <y>104</y>
+       <width>781</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>IDL Path</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="IDL3_Button">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>98</y>
+       <width>101</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>IDL 3</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="IDL4_Path">
+     <property name="geometry">
+      <rect>
+       <x>132</x>
+       <y>130</y>
+       <width>781</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>IDL Path</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="IDL4_Button">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>124</y>
+       <width>101</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>IDL 4</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="IDL5_Path">
+     <property name="geometry">
+      <rect>
+       <x>132</x>
+       <y>156</y>
+       <width>781</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>IDL Path</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="IDL5_Button">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>150</y>
+       <width>101</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>IDL 5</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>225</y>
+      <width>931</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Search</string>
+    </property>
+    <widget class="QLineEdit" name="Search_Edit">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>831</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>true</bool>
+     </property>
+     <property name="placeholderText">
+      <string>QueryStringValue</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Search_Button">
+     <property name="geometry">
+      <rect>
+       <x>846</x>
+       <y>20</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Search</string>
+     </property>
+    </widget>
+    <widget class="QPlainTextEdit" name="Output">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>911</width>
+       <height>461</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+     <property name="plainText">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="RpcMethod">
+     <property name="geometry">
+      <rect>
+       <x>13</x>
+       <y>50</y>
+       <width>141</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Only RPC Method</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>955</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
