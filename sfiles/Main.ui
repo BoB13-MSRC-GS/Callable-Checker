@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MSRC Gasan</string>
+   <string>Callable Checker</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QGroupBox" name="groupBox">
@@ -234,7 +234,7 @@
       <bool>true</bool>
      </property>
      <property name="placeholderText">
-      <string>QueryStringValue</string>
+      <string>__imp_free</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Search_Button">
