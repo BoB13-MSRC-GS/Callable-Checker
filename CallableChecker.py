@@ -264,4 +264,4 @@ if __name__ == '__main__':
     myApp.show()
     sys.exit(app.exec_())
 
-# pyinstaller -w -F --add-data="sfiles/*;./" tool.py
+# pyinstaller -w -F --add-data="sfiles/*;./" CallableChecker.py
