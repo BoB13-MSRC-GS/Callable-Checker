@@ -1,5 +1,6 @@
 <div align='center'>
-  <h1><code>Callable Checker (BoB13-MSRC_GASAN)</code></h1>
+  <h1><code>Callable Checker
+(BoB13-MSRC_GASAN)</code></h1>
   <p>
     <strong>A tool that automatically identifies the call sequence via idapython script. To analyze vulnerabilities in a bottom-up manner for methods using Rpc.</strong>
   </p>
