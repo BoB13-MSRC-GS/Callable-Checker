@@ -1,5 +1,5 @@
-build
-dist
-venv
-config.ini
-tool.spec
+/__pycache__
+/build
+/dist
+/VirtualEnv
+CallableChecker.spec
