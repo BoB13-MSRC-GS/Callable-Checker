@@ -35,15 +35,15 @@ python -m venv VirtualEnv
 
 Installation of required components:
 ```cmd
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 
 Run python script, or Compile using pyinstaller:
 ```cmd
-python tool.py
+python CallableChecker.py
 ```
 ```cmd
-pyinstaller -w -F --add-data="sfiles/*;./" tool.py
+pyinstaller -w -F --add-data="sfiles/*;./" CallableChecker.py
 ```
 
 ## Using Callable-Checker
