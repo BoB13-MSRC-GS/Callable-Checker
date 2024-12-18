@@ -39,10 +39,11 @@ pip install -r requirements.txt
 ```
 
 Run python script, or Compile using pyinstaller:
-```cmd
+```
 python CallableChecker.py
 ```
-```cmd
+
+```
 pyinstaller -w -F --add-data="sfiles/*;./" CallableChecker.py
 ```
 
